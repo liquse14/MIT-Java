@@ -2,7 +2,7 @@ package test2;
 
 public class Exercise4 {
 	public static void main(String arg[]) {
-	}
+	
 }
 //4x+5y=60
 //[Console â]
