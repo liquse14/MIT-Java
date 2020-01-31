@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+	#button{
+		width:100px;
+		height:40px;
+		background-color:#F2F0CA;
+	}
+</style>
+</head>
+<body>
+<h1>생산관리 등록화면</h1>
+<fieldset>
+	<legend>생산관리 등록화면</legend>
+	<form>
+		<ul>
+			<li>제품코드<input type="text"name="Product_code"></li>
+			<li>제품이름<input type="text"name="Product_name"></li>
+			<li>제품원가<input type="number"name="Product_cost"></li>
+			<li>제고수량<input type="number"name="Quantity"></li>
+			<li>목표수량<input type="number"name="Target_quantity"></li>
+			<li>재고수량<input type="number"name="Available_stock"></li>
+			<li>출고가&nbsp;&nbsp;&nbsp;<input type="number"name="Shipping_price"></li>
+			<li>그룹이름<select name="gcode">
+					<option value="A">컴퓨터</option>
+					<option value="B">냉장고</option>
+					<option value="B">냉장고 소모품</option>
+			
+			</select>
+		
+		
+		
+		</ul>
+		<input type="button" id="button"value="조회">
+		<input type="button" id="button"value="수정">
+		<input type="reset" id="button"value="삭제">
+		<a href="main.html"><input type="button" id="button"value="메인화면"></a>
+	</form>
+
+</fieldset>
+</body>
+</html>

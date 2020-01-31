@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<table border="1">
+<tr bgcolor="grey">
+	<td>순서</td>
+	<td>컬럼ID</td>
+	<td>컬럼명</td>
+	<td>형태</td>
+	<td>길이</td>
+	<td>NULL</td>
+	<td>비고</td>
+</tr>
+<tr>
+	<td>1</td>
+	<td>code</td>
+	<td>제품코드</td>
+	<td>char</td>
+	<td>3</td>
+	<td>NOT NULL</td>
+	<td>primary</td>
+</tr>
+<tr>
+	<td>2</td>
+	<td>pname</td>
+	<td>제품이름</td>
+	<td>varchar2</td>
+	<td>20</td>
+	<td>NOT NULL</td>
+	<td>&nbsp;</td>
+</tr>
+<tr>
+	<td>3</td>
+	<td>cost</td>
+	<td>제품원가</td>
+	<td>number</td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+</tr>
+<tr>
+	<td>4</td>
+	<td>pnum</td>
+	<td>목표수량</td>
+	<td>number</td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+</tr>
+<tr>
+	<td>5</td>
+	<td>jnum</td>
+	<td>재고수량</td>
+	<td>number</td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+</tr>
+<tr>
+	<td>6</td>
+	<td>sale</td>
+	<td>출고가</td>
+	<td>number</td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+</tr>
+<tr>
+	<td>7</td>
+	<td>gcode</td>
+	<td>그룹코드</td>
+	<td>char</td>
+	<td>3</td>
+	<td>NOT NULL</td>
+	<td>Foreign</td>
+</tr>
+</table>
+<br>
+-샘플데이터
+<table border="1">
+<tr bgcolor="grey">
+	<td>제품코드</td>
+	<td>제품이름</td>
+	<td>제품원가</td>
+	<td>목표수량</td>
+	<td>재고수량</td>
+	<td>출고가</td>
+	<td>그룹코드</td>
+</tr>
+<tr>
+	<td>A01</td>
+	<td>컴퓨터DVD</td>
+	<td>1500</td>
+	<td>300</td>
+	<td>50</td>
+	<td>2000</td>
+	<td>A</td>
+</tr>
+<tr>
+	<td>A02</td>
+	<td>컴퓨터CDROM</td>
+	<td>1200</td>
+	<td>500</td>
+	<td>100</td>
+	<td>1500</td>
+	<td>A</td>
+</tr>
+<tr>
+	<td>A03</td>
+	<td>컴퓨터모니터</td>
+	<td>50000</td>
+	<td>400</td>
+	<td>50</td>
+	<td>55000</td>
+	<td>A</td>
+</tr>
+<tr>
+	<td>제품코드</td>
+	<td>제품이름</td>
+	<td>제품원가</td>
+	<td>목표수량</td>
+	<td>재고수량</td>
+	<td>출고가</td>
+	<td>그룹코드</td>
+</tr>
+</table>
+
+</body>
+</html>
